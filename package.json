@@ -16,21 +16,18 @@
     "buffer-to-arraybuffer": "^0.0.5",
     "object-assign": "^4.1.1",
     "query-string": "^5.0.1",
-    "simple-get": "^2.7.0",
+    "simple-get": "^4.0.1",
     "timed-out": "^4.0.1",
     "url-set-query": "^1.0.0",
     "xhr": "^2.0.4"
   },
   "devDependencies": {
-    "budo": "^11.0.1",
     "faucet": "0.0.1",
-    "standard": "^10.0.3",
     "tape": "^4.0.1"
   },
   "scripts": {
-    "test": "standard && npm run test-node && npm run test-browser",
-    "test-node": "node test/index.js | faucet",
-    "test-browser": "budo test/test-browser.js -o"
+    "test": "npm run test-node",
+    "test-node": "node test/index.js | faucet"
   },
   "keywords": [
     "node",
