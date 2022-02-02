@@ -1,16 +1,11 @@
 {
-  "name": "xhr-request",
+  "name": "@photic/xhr-request",
   "version": "1.1.0",
   "description": "tiny http client for Node and the browser",
   "main": "index.js",
   "license": "MIT",
   "browser": {
     "./lib/request.js": "./lib/request-browser.js"
-  },
-  "author": {
-    "name": "Matt DesLauriers",
-    "email": "dave.des@gmail.com",
-    "url": "https://github.com/mattdesl"
   },
   "dependencies": {
     "buffer-to-arraybuffer": "^0.0.5",
@@ -52,10 +47,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Jam3/xhr-request.git"
+    "url": "git@github.com:kaleido-io/xhr-request.git"
   },
-  "homepage": "https://github.com/Jam3/xhr-request",
-  "bugs": {
-    "url": "https://github.com/Jam3/xhr-request/issues"
-  }
+  "homepage": "https://github.com/kaleido-io/xhr-request"
 }
