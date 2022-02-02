@@ -47,7 +47,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/kaleido-io/xhr-request.git"
+    "url": "git@github.com:kaleido-io/xhr-request.git"
   },
   "homepage": "https://github.com/kaleido-io/xhr-request"
 }
